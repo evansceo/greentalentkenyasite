@@ -1,0 +1,40 @@
+#pitch {
+  background: url("https://goo.gl/TqNW4t");
+  background-repeat: no-repeat;  
+  height: 480px;
+  width: 20%;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: auto;
+  font-family: sans-serif;
+  color:white;
+}
+#defence {
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#midfield {
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#attack {
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#lineup{
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    right: 0;
+}

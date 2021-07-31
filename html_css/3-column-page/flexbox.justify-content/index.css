@@ -1,0 +1,12 @@
+div {
+    background-color: violet;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+  }
+  main {
+    display: flex;
+    justify-content: space-between;
+    
+  }

@@ -1,0 +1,89 @@
+html {
+    margin: 0;
+    padding: 0;
+    background: url("http://bit.ly/kings_college_chapel") no-repeat center fixed;
+    background-size: cover;
+  }
+  img {
+    height: auto;
+    width: 300px;
+    margin: 0 0 0 0;
+    box-sizing: border-box;
+      /* overflow: hidden; */
+  }
+  .message {
+    margin: 20px auto 0 auto;
+    font-family: cursive;
+    font-size: 1.3em;
+    text-align: center;
+  }
+  h1 {
+    margin: 0;
+    -webkit-margin-before: 0;
+    color: rgb(145, 2, 0);
+    font-style: normal;
+  }
+  #content-1 a:hover {
+    color: rgb(250, 255, 0);
+    font-weight: 900;
+  }
+  header{
+    box-sizing: border-box;
+    display: flex;
+    height: 300px;
+    background-color: rgb(213, 183, 255);
+    background: url(file:///home/access/Downloads/max-bender-s4I1xpX_ny8-unsplash.jpg);
+    overflow: scroll;
+    background-size: 100%;
+  }
+  body{
+    margin: 50px auto 50px auto;
+    background:rgba(207, 197, 197, 0.8);
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  main{
+    background-color: rgba(10, 55, 90, 0.3);
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  footer{
+    background-color: rgb(213, 183, 255);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  .column-1{
+    padding: 20px;
+    margin: 5px;
+    background-color: rgb(213, 183, 255);
+    height: 5cm;
+  }
+  .column-2{
+    background-color: cyan;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 5px;
+  }
+  .column-3{
+    background-color: rgb(213, 183, 255);
+    text-align: left;
+    width: 7cm;
+    padding: 20px;
+    margin: 5px;
+
+  }
+  .content-3{
+    background-color: rgb(169, 241, 249);
+    flex: 1;
+    margin-right: 0;
+  }
+  #content-2 a:hover{
+    font-weight: 900;
+    font-style: italic;
+    color: rgb(255, 0, 250);
+  }
