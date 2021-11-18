@@ -1,0 +1,34 @@
+{% macro displaySourceList(source_list) %}
+  {% for source in source_list %}
+    <div class="container col-xs-12 col-sm-4 col-md-3 col-lg-3">
+      <hr>
+      <div class="panel panel-danger">
+        <div class="panel-heading">
+          <a href="/article/{{source.id}}">{{source.name}}</a>
+        </div>
+        <div class="panel-body">
+          <p class="card-text">{{source.description}}</p>
+        </div>
+        <div class="panel-footer">
+          <a href="{{source.url}}" class="btn btn-sm btn-danger">Visit this website</a>
+        </div>
+      </div>
+      <hr>
+    </div>
+  {% endfor %}
+{% endmacro %}
+
+
+{% macro displayArticleList(article_list)%}
+  {% for article in article_list%}
+  <div class="col-xs-12 clearfix col-sm-4 col-md-3 col-lg-4">
+    <hr>
+    <img src="{{article.urlToImage}}" alt="{{article.title}} image" class="img-responsive">
+    <h2>{{article.title | truncate(50)}}</h2>
+    <p>{{article.description| truncate(99)}}</p>
+    <p>Published at: {{article.publishedAt}}</p>
+    <a href="{{article.url}}">Read the full article</a>
+    <hr>
+  </div>
+  {%endfor%}
+{%endmacro%}

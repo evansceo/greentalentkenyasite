@@ -1,0 +1,14 @@
+body{
+    background-image: url("css.jpeg");
+    background-size: contain;
+    color: black;
+}
+
+.mydiv {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height:150px;
+    width: 500px;
+    margin: auto;
+    color: black;
+}
